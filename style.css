@@ -1,0 +1,129 @@
+body{
+    margin-top: 0px;
+    height: 100vh;
+    background-color: #d8e8e8;
+    
+}
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+h2{
+     font-family: 'Crimson Text', serif;
+     text-align: center;
+    
+  
+}
+
+h3{font-family: 'Noto Sans', sans-serif;
+
+}
+
+hr{
+    border: 20px solid #D6DEE6;
+    margin-top: 010;
+    margin-bottom: 0;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.top-container{
+    
+    width:100%;
+    max-height:fit-content;
+}
+.top-container .title-text{
+    text-align: center;
+
+}
+.top-container img{
+    max-height: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+.middle-container{
+    width:100%;
+    background-color:#D6DEE6;  
+    height:fit-content; 
+}
+
+.profile{
+    background-color:#D6DEE6;
+    height: fit-content;
+}
+
+.profile>.me{
+    display: block;
+    margin-top: 2;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 50%;
+    width: 100px;    
+
+}
+
+.profile h2{
+text-align: center;
+
+}
+.profile p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size:1.2rem
+
+}
+.skills{
+    display: grid;
+    grid-template-columns:0.2fr auto; 
+    grid-template-rows:0.2fr auto;
+    row-gap: 100px;
+
+
+}
+.skills p{
+    font-size:1.2rem
+}   
+
+.img-code{
+    margin-left:20px;
+}
+
+.img-teach{
+    margin-right: 10px;
+}
+
+.contact{
+    background-color: #D6DEE6;
+    margin-bottom: 50px;
+    padding-bottom: 10%;
+}
+.flex-container{
+    display: flex;
+
+}
+
+.github{
+    flex:1;
+}
+.linkedin{
+    flex:1;
+    
+}
+
+button{
+    background-color:lightslategray;
+    color:white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: medium;
+    
+}
+
