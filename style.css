@@ -35,14 +35,14 @@ a:link{
 .top-container{
     
     width:100%;
-    max-height:fit-content;
+    max-height:50vh;
 }
 .top-container .title-text{
     text-align: center;
 
 }
 .top-container img{
-    max-height: fit-content;
+    max-height: 50vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
